@@ -1,0 +1,23 @@
+.page {
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  max-width: 1300px;
+  display: grid;
+  min-height: 100vh;
+  grid-template: max-content auto max-content /1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.page__section {
+  margin: 0;
+  padding: 60px 0;
+}
+
+/*.page__title {*/
+/*  font: 800 24px/30px Inter, sans-serif;*/
+/*  color: var(--font-color-main);*/
+/*}*/
+

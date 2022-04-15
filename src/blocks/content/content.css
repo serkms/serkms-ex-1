@@ -1,0 +1,8 @@
+.content {
+  position: relative;
+  grid-area: main;
+  /*min-height: calc(100vh - 120px);*/
+  margin: 0;
+  padding: 0;
+
+}
