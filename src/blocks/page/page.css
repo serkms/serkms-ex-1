@@ -1,6 +1,7 @@
 .page {
   margin: 0 auto;
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: 'noto-sans-display', 'Arial', sans-serif;
+  font-weight: 400;
   max-width: 1300px;
   display: grid;
   min-height: 100vh;

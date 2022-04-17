@@ -8,28 +8,6 @@
 }
 
 
-
-@font-face {
-  font-family: 'a-avanteotl-heavy';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("a-avanteotl-heavy.woff2") format("woff2"),
-  url("a-avanteotl-heavy.woff") format("woff");
-}
-
-
-@font-face {
-  font-family: 'a-avantetck-heavy';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("a-avantetck-heavy.woff2") format("woff2"),
-  url("a-avantetck-heavy.woff") format("woff");
-}
-
-
-
 @font-face {
   font-family: 'a-assuan';
   font-style:  normal;
@@ -49,6 +27,41 @@
 
 }
 
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("noto-sans-display-regular.woff2") format("woff2"),
+  url("noto-sans-display-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("noto-sans-display-medium.woff2") format("woff2"),
+  url("noto-sans-display-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("noto-sans-display-semibold.woff2") format("woff2"),
+  url("noto-sans-display-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("noto-sans-display-condensed-black.woff2") format("woff2"),
+  url("noto-sans-display-condensed-black.woff") format("woff");
+}
 
 @font-face {
   font-family: 'Inter';
@@ -57,8 +70,12 @@
   font-display: swap;
   src: url("Inter-Regular.woff2?v=3.15") format("woff2"),
        url("Inter-Regular.woff?v=3.15") format("woff");
-
 }
+
+
+
+
+
 
 @font-face {
   font-family: 'Inter';

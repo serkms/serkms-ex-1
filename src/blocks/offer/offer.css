@@ -1,9 +1,15 @@
+.offer {
+  position: relative;
+  height: calc(100vh - 120px);
+  /*border-bottom: solid 1px var(--color-main);*/
+}
+
 .offer__title {
   margin: 0;
   padding: 0;
   font-family: 'a-assuan', Arial, sans-serif;
   font-size: 80px;
-  line-height: 120px;
+  line-height: 100px;
   color: var(--font-color-main);
   opacity: .7;
   visibility: hidden;
@@ -31,15 +37,24 @@
   overflow: hidden;
   display: grid;
   grid-template: auto / repeat(2, max-content) 1fr;
-  gap: 30px;
+  gap: 50px;
 }
 
 .offer__content-second {
   overflow: hidden;
   display: grid;
-  grid-template: auto / 1fr repeat(2, max-content);
+  grid-template: auto / max-content 1fr repeat(2, max-content);
   gap: 30px;
 }
+
+.offer__content-third {
+  overflow: hidden;
+  display: grid;
+  grid-template: auto / 1fr max-content;
+  gap: 30px;
+}
+
+
 
 .offer__title_first-left {
   grid-column: 1/2;
@@ -50,11 +65,19 @@
 }
 
 .offer__title_second-left {
-  grid-column: 2/3;
+  grid-column: 1/2;
+}
+
+.offer__title_second-center {
+  grid-column: 3/4;
 }
 
 .offer__title_second-right {
-  grid-column: 3/4;
+  grid-column: 4/5;
+}
+
+.offer__title_third-right {
+  grid-column: 2/3;
 }
 
 .offer__title_active-down {
@@ -90,13 +113,18 @@
 
 
 .offer__text {
+  /*grid-column: 1/2;*/
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
   position: absolute;
-  bottom: -40px;
+  bottom: -90px;
   left: 50px;
-  margin: 0;
-  padding: 0 20px;
-  background-color: var(--back-color);
-  max-width: 500px;
+  border-radius: 25px;
+  margin: 0 0 0 50px;
+  padding: 30px;
+  background-color: var(--back-color-accent);
+  max-width: 600px;
   text-align: justify;
   color: var(--font-color-main);
   visibility: hidden;
@@ -105,4 +133,20 @@
 .offer__text_active {
   visibility: visible;
   animation: slide-up linear .5s;
+}
+
+
+.offer__back {
+  visibility: hidden;
+  position: absolute;
+  top: -120px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh + 40px);
+  opacity: .1;
+}
+
+.offer__back_active {
+  visibility: visible;
+  animation: fade-out linear .5s;
 }

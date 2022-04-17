@@ -5,7 +5,8 @@
 }
 
 .root_dark {
-  --back-color: #020c38;
+  --back-color: #12216c;
+  --back-color-accent: #0e1d64;
   --font-color-main: #ffffff;
   --color-main: #ffffff;
 }
