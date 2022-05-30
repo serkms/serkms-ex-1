@@ -1,0 +1,28 @@
+.page {
+  margin: 0 auto;
+  font-family: 'noto-sans-display', 'Arial', sans-serif;
+  font-weight: 400;
+  max-width: 1300px;
+  display: grid;
+  min-height: 100vh;
+  grid-template: max-content auto max-content /1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+  &section {
+    margin: 0;
+    padding: 60px 0;
+  }
+}
+
+.content {
+  position: relative;
+  grid-area: main;
+  /*min-height: calc(100vh - 120px);*/
+  margin: 0;
+  padding: 0;
+
+}
+

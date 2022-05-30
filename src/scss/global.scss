@@ -1,0 +1,18 @@
+.root {
+  padding: 30px;
+  background: var(--back-color);
+  --font-nav: 400 16px/20px Inter, sans-serif;
+
+  &_dark {
+    --back-color: #12216c;
+    --back-color-accent: #0e1d64;
+    --font-color-main: #ffffff;
+    --color-main: #ffffff;
+  }
+  &_light {
+    --back-color: #ffffff;
+    --font-color-main: #000000;
+    --color-main: #000000;
+  }
+
+}

@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'monti-decor-b';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/monti-decor-b.woff2") format("woff2"),
+  url("../fonts/monti-decor-b.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: 'a-assuan';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/a-assuan.woff2") format("woff2"),
+  url("../fonts/a-assuan.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'a-assuanotl';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/a-assuanotl.woff2") format("woff2"),
+  url("../fonts/a-assuanotl.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/noto-sans-display-regular.woff2") format("woff2"),
+  url("../fonts/noto-sans-display-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/noto-sans-display-medium.woff2") format("woff2"),
+  url("../fonts/noto-sans-display-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/noto-sans-display-semibold.woff2") format("woff2"),
+  url("../fonts/noto-sans-display-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'noto-sans-display';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/noto-sans-display-condensed-black.woff2") format("woff2"),
+  url("../fonts/noto-sans-display-condensed-black.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2?v=3.15") format("woff2"),
+       url("../fonts/Inter-Regular.woff?v=3.15") format("woff");
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2?v=3.15") format("woff2"),
+       url("../fonts/Inter-Medium.woff?v=3.15") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Inter-Black.woff2?v=3.15") format("woff2"),
+       url("../fonts/Inter-Black.woff?v=3.15") format("woff");
+}

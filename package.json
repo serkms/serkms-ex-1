@@ -1,40 +1,27 @@
 {
-  "name": "mesto",
+  "name": "anime",
   "version": "1.0.0",
-  "description": "Проект создан в рамках 3 курса обучения по программе Яндекс Практикум \"Веб-разработчик\"",
-  "main": "index.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack serve --mode development"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergey-popov-1964/mesto.git"
-  },
-  "author": "Sergei Popov",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergey-popov-1964/mesto/issues"
-  },
-  "homepage": "https://github.com/sergey-popov-1964/mesto#readme",
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
-    "autoprefixer": "^10.4.4",
-    "babel-loader": "^8.2.4",
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^10.2.4",
-    "css-loader": "^5.2.7",
-    "cssnano": "^4.1.11",
-    "html-loader": "^2.1.2",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^1.6.2",
-    "postcss-loader": "^5.3.0",
-    "webpack": "^5.72.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^3.11.3"
-  },
-  "dependencies": {
-    "core-js": "^3.21.1"
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html": "^1.0.2",
+    "sass": "^1.52.1"
   }
 }
