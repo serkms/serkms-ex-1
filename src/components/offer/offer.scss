@@ -12,40 +12,51 @@
     color: var(--font-color-main);
     opacity: .7;
     visibility: hidden;
+
     &_outline {
       font-family: 'a-assuanotl', Arial, sans-serif;
       opacity: .5;
     }
+
     &_first-left {
       grid-column: 1/2;
     }
+
     &_first-right {
       grid-column: 2/3;
     }
+
     &_second-left {
       grid-column: 1/2;
     }
+
     &_second-center {
       grid-column: 3/4;
     }
+
     &_second-right {
       grid-column: 4/5;
     }
+
     &_third-right {
       grid-column: 2/3;
     }
+
     &_active-down {
       visibility: visible;
       animation: slide-down linear .5s;
     }
+
     &_active-up {
       visibility: visible;
       animation: slide-up linear .5s;
     }
+
     &_active-left {
       visibility: visible;
       animation: slide-left linear .5s;
     }
+
     &_active-right {
       visibility: visible;
       animation: slide-right linear .5s;
@@ -55,25 +66,29 @@
   &__content {
     position: relative;
     margin: 0;
-    padding: 30px 0;
+    padding: 50px 20px;
     border-bottom: solid 1px var(--color-main);
     visibility: hidden;
+
     &_active {
       visibility: visible;
       animation: slide-left linear 1s;
     }
+
     &-first {
       overflow: hidden;
       display: grid;
       grid-template: auto / repeat(2, max-content) 1fr;
       gap: 50px;
     }
+
     &-second {
       overflow: hidden;
       display: grid;
       grid-template: auto / max-content 1fr repeat(2, max-content);
       gap: 30px;
     }
+
     &-third {
       overflow: hidden;
       display: grid;
@@ -90,6 +105,7 @@
     width: 100%;
     height: calc(100vh + 40px);
     opacity: .1;
+
     &_active {
       visibility: visible;
       animation: fade-out linear .5s;

@@ -22,8 +22,10 @@ const path = {
    },
    watch: {
       html: source_folder + "/**/*.html",
-      css: source_folder + "/scss/**/*.scss",
-      js: source_folder + "/js/**/*.js",
+      css: source_folder + "/**/*.scss",
+
+      // css: source_folder + "/scss/**/*.scss",
+      js: source_folder + "/**/*.js",
       img: source_folder + "/img/**/*.*",
       fonts: source_folder + "/fonts/*.*",
       vendor: source_folder + "/vendor/*.*",

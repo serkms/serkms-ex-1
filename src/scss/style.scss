@@ -1,6 +1,7 @@
 @import "fonts";
 @import "global";
-@import "header";
+@import "../components/header/header";
 @import "page";
-@import "offer";
+@import "../components/offer/offer";
+@import "../components/about/about";
 @import "animation";
