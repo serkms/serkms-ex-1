@@ -1,0 +1,39 @@
+@use '../../scss/global';
+
+.stack {
+ @include global.section;
+  display: grid;
+  grid-template: auto / 1fr 2fr;
+  gap: 50px;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    @include global.title-h2;
+  }
+
+  &__content {
+    margin: 0;
+    padding: 0;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  &__text {
+    @include global.title-h3;
+    padding: 10px 35px;
+    display: inline-block;
+    @include global.border-light;
+    &:hover {
+      background-color: rgb(34, 54, 120);
+      cursor: pointer;
+    }
+  }
+}

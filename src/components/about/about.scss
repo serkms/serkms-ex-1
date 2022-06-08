@@ -1,35 +1,31 @@
 .about {
+  max-width: 1500px;
+  position: relative;
   overflow: hidden;
   box-sizing: border-box;
-  //padding: 60px 0;
-  margin: 0;
-  border: solid 1px rgba(255, 255, 255, .4);
+  margin: 0 -25px 0 -25px;
+  border: solid 1px rgba(255, 255, 255, .2);
   border-radius: 20px;
-  background-color: #0e1858;
+  background: rgb(8,5,60);
+  background: linear-gradient(191deg, rgba(8,5,60,1) 0%, rgba(10,15,103,1) 83%, rgba(12,73,118,1) 100%);
   z-index: 200;
   font-family: 'monti-decor-b', Arial, sans-serif;
   color: var(--font-color-main);
   font-size: 30px;
   letter-spacing: 5px;
   display: grid;
-  grid-template: auto / 1fr max-content;
-  gap: 50px;
+  grid-template: auto / minmax(200px, 1fr) max-content 2fr;
   justify-items: center;
 
   &__title {
-    //max-width: 500px;
     width: 100%;
-    border-right: solid 1px rgba(255, 255, 255, .4);
     grid-column: 1/2;
     visibility: hidden;
-    //padding: 20px;
     margin: 0;
-    //justify-self: left;
     text-align: center;
     align-self: center;
     &-text {
       display: inline-block;
-      //margin: auto 0;
       padding: 80px 0;
       max-width: 200px;
       &_active {
@@ -37,17 +33,25 @@
         animation: slide-right linear 1s;
       }
     }
+  }
 
+  &__divider {
+    grid-column: 2/3;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    visibility: visible;
   }
 
   &__content {
     //width: 100%;
     margin: 0;
+    padding: 20px;
     //padding: 60px 20px;
-    grid-column: 2/3;
+    grid-column: 3/4;
     //visibility: hidden;
     display: grid;
-    grid-template: repeat(2, max-content) / 1fr 1fr;
+    grid-template: repeat(2, max-content) / repeat( 2, 1fr);
     gap: 35px;
     justify-self: center;
     align-self: center;
@@ -59,13 +63,13 @@
 
   &__item {
     visibility: hidden;
-    width: 350px;
+    width: 450px;
     //width: 100%;
     background-color: rgb(9, 22, 74);
     list-style: none;
     justify-content: center;
     text-align: center;
-    border: solid 1px rgba(255, 255, 255, .4);
+    border: solid 1px rgba(255, 255, 255, .2);
     cursor: pointer ;
     &:hover {
       background-color: rgb(34, 54, 120);
@@ -73,6 +77,21 @@
     &_active {
       visibility: visible;
       animation: slide-up linear .3s;
+    }
+  }
+
+  &__back {
+    //visibility: hidden;
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    width: 450px;
+    height: 250px;
+    opacity: .04;
+
+    &_active {
+      visibility: visible;
+      animation: fade-out linear .5s;
     }
   }
 

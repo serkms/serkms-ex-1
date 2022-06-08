@@ -1,5 +1,14 @@
+@import "mixins";
+
+
+$withBig: 1500px;
+$withSmall: 1400px;
+
+
+
 .root {
-  padding: 30px;
+  margin: 0;
+  padding: 0 50px;
   background: var(--back-color);
   --font-nav: 400 16px/20px Inter, sans-serif;
 
@@ -16,3 +25,4 @@
   }
 
 }
+

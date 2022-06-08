@@ -3,7 +3,7 @@
   overflow: hidden;
   grid-area: header;
   margin: 0;
-  padding: 15px 0;
+  padding: 25px 0 15px 0;
   border-bottom: solid 1px var(--color-main);
   display: grid;
   grid-template: max-content / max-content 1fr max-content;
@@ -52,7 +52,7 @@
     display: grid;
     justify-content: right;
     grid-auto-flow: column;
-    gap: 40px;
+    //gap: 40px;
     visibility: hidden;
     overflow: hidden;
     align-items: center;
